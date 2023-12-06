@@ -1,0 +1,14 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//    Copyright (c) 2022 - 2023.
+//    Haixing Hu, Qubit Co. Ltd.
+//
+//    All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+import { Logger } from '@haixing_hu/common-logging';
+import config from 'src/config';
+
+const logger = Logger.getLogger(config.app.code);
+
+export default logger;
