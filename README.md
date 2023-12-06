@@ -1,32 +1,28 @@
-# Babel Tower (babel-tower-frontend)
+# Vue3-class-component-demo-quasar
 
-A realtime translator based on AI
+The demo project of vue3-class-component, using quasar with vite.
 
 ## Install the dependencies
 ```bash
 yarn
-# or
-npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
-quasar dev
+yarn dev
 ```
 
 
 ### Lint the files
 ```bash
 yarn lint
-# or
-npm run lint
 ```
 
 
 
 ### Build the app for production
 ```bash
-quasar build
+yarn build
 ```
 
 ### Customize the configuration
