@@ -1669,13 +1669,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@haixing_hu/vue3-class-component@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@haixing_hu/vue3-class-component@npm:1.4.0"
+"@haixing_hu/vue3-class-component@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "@haixing_hu/vue3-class-component@npm:1.5.1"
   peerDependencies:
     "@babel/runtime": ^7.23.2
     vue: ^3.3.4
-  checksum: c0504099a1c795bff15195aafaf23b167c1e86228d3609ae44e57a8ace999619c8e9c1f27c753df0d55356b98a9d4b3caa510c9c7e0683a3d6a91a25c9afb07c
+  checksum: 3d65a058dc7fc65f890e0ef17161eff2909744aeec96141fec5715ae6611c8288d91e4dea8674625bf0bf031c7971735e43ec8cb1458bd1bcbd27ca4fccb7c8e
   languageName: node
   linkType: hard
 
@@ -9750,7 +9750,7 @@ __metadata:
     "@haixing_hu/jsdoc-minami": "npm:^1.4.0"
     "@haixing_hu/pinia-decorator": "npm:^1.1.1"
     "@haixing_hu/vite-plugin-babel": "npm:^1.5.0"
-    "@haixing_hu/vue3-class-component": "npm:^1.4.0"
+    "@haixing_hu/vue3-class-component": "npm:^1.5.1"
     "@jest/core": "npm:^29.7.0"
     "@quasar/app-vite": "npm:^2.0.0-alpha.42"
     "@quasar/extras": "npm:^1.16.8"
