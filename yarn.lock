@@ -326,14 +326,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helpers@npm:^7.23.6":
-  version: 7.23.6
-  resolution: "@babel/helpers@npm:7.23.6"
+"@babel/helpers@npm:7.23.0":
+  version: 7.23.0
+  resolution: "@babel/helpers@npm:7.23.0"
   dependencies:
     "@babel/template": "npm:^7.22.15"
-    "@babel/traverse": "npm:^7.23.6"
-    "@babel/types": "npm:^7.23.6"
-  checksum: df1cf6607676ad36f52f652ec03536f2732d70aef5e76dba5c964e34d49f3c2d3dcf9fb3740db359f53071d74b64606a833d5ba156f79f437f71bfe06e2e7e19
+    "@babel/traverse": "npm:^7.23.0"
+    "@babel/types": "npm:^7.23.0"
+  checksum: a4941ffbe44cfdecba522dcbc51973bb217770588ce0498279a3815733f45a5460f0916c5c379548d971f1401756211eda5528da88a8491607572b187b6c0c77
   languageName: node
   linkType: hard
 
@@ -1388,7 +1388,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.23.6":
+"@babel/traverse@npm:^7.23.0, @babel/traverse@npm:^7.23.6":
   version: 7.23.6
   resolution: "@babel/traverse@npm:7.23.6"
   dependencies:
@@ -1620,6 +1620,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@haixing_hu/clone@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@haixing_hu/clone@npm:1.4.1"
+  peerDependencies:
+    "@babel/runtime": ^7.23.0
+    "@haixing_hu/typeinfo": ^2.3.0
+  checksum: 1ac66f4d6b2bc3f3e94ddd3c6c3e070a7ef61b8678a942b9bfc4784c3accac239068c73b692220359bf6585fb00634b91fbb39a60fce9d274599bcbbf969b316
+  languageName: node
+  linkType: hard
+
 "@haixing_hu/common-logging@npm:^1.0.3":
   version: 1.0.3
   resolution: "@haixing_hu/common-logging@npm:1.0.3"
@@ -1659,6 +1669,15 @@ __metadata:
     pinia: ^2.0.0
     vue: ^3.0.0
   checksum: 9022a09fc187cf14a57663cfbc700a47e767898708ffef0e5b1af375b6e83bf0abb70365c6095fd480045f8906a11e0087906579f228f5e43426095bf383f45d
+  languageName: node
+  linkType: hard
+
+"@haixing_hu/typeinfo@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@haixing_hu/typeinfo@npm:2.3.0"
+  peerDependencies:
+    "@babel/runtime": ^7.23.0
+  checksum: 69d925a30bb5e0e4ea2be33ef108296a9c8ce146ea5c2a0d8a165638a5a31e37bfab1b43d0b88236fca4fdb3316c5bfe1325a080932810ca3f34743c7a83410c
   languageName: node
   linkType: hard
 
@@ -9757,10 +9776,12 @@ __metadata:
     "@babel/plugin-transform-runtime": "npm:^7.23.4"
     "@babel/preset-env": "npm:^7.23.3"
     "@babel/runtime": "npm:^7.23.4"
+    "@haixing_hu/clone": "npm:^1.4.1"
     "@haixing_hu/common-logging": "npm:^1.0.3"
     "@haixing_hu/eslint-config": "npm:^1.3.0"
     "@haixing_hu/jsdoc-minami": "npm:^1.4.0"
     "@haixing_hu/pinia-decorator": "npm:^1.1.1"
+    "@haixing_hu/typeinfo": "npm:^2.3.0"
     "@haixing_hu/vite-plugin-babel": "npm:^1.5.0"
     "@haixing_hu/vue3-class-component": "npm:^1.5.1"
     "@jest/core": "npm:^29.7.0"
